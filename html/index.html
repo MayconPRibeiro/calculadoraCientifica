@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script type="text/javascript" src="../javascript/funcoes.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <form id="campoDeDados">
+        <label id="lOpcao"></label>
+        <input id="tOpcao" type="text" placeholder="0" ><br><br>
+
+    </form>
+
+    <form id="MenuOperacoes"></form>
+
+        <button id="-" onclick="coletar('-')">-</button>
+        <button id="+" onclick="coletar('+')">+</button>
+        <button id="*" onclick="coletar('*')">x</button>
+        <button id="/" onclick="coletar('/')">/</button><br>
+        <button id="x²" onclick="coletar('x²')">x²</button>
+        <button id="Delta" onclick="coletar('Delta')">Delta</button>
+        <button id="Sen" onclick="coletar('Sen')">Sen</button>
+        <button id="Cos" onclick="coletar('Cos')">Cos</button><br>
+        <button id="Tan" onclick="coletar('Tan')">Tan</button>
+        <button id="Mod" onclick="coletar('Mod')">Mod</button>
+        <button id="Log" onclick="coletar('Log')">Log</button>
+        <button id="CE" onclick="clear()">CE</button>
+
+    </form>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+    border-radius: 25%;
+    text-align: center;
+    margin-top: 35px;
+    
+
+}
+body{
+    background-image: linear-gradient(45deg,black, rgb(49, 96, 199));
+
+    height: 100vh;
+
+    text-align: center;
+}
+
+button{
+    width: 10%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+input{
+    width: 40%;
+    height: 30px;
+}
